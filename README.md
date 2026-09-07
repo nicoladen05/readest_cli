@@ -1,5 +1,7 @@
 # readest-cli
 
+> **Disclaimer:** This project was vibe coded as a quick proof of concept, primarily to enable AI agents to upload books to Readest. Use it at your own risk.
+
 A standalone, script-friendly CLI for uploading EPUB files to the Readest cloud library. It has no Calibre or Qt dependency and uses only the Python standard library at runtime.
 
 > This is an independent CLI built from Readest's current Calibre plugin protocol. It is not an official Readest release.
