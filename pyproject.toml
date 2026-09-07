@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readest-cli"
+version = "0.1.0"
+description = "Agent-friendly CLI for uploading EPUB books to Readest"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "AGPL-3.0-only"}
+authors = [{name = "readest-cli contributors"}]
+classifiers = [
+  "License :: OSI Approved :: GNU Affero General Public License v3",
+  "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.scripts]
+readest = "readest_cli.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["readest_cli*"]

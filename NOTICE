@@ -1,0 +1,15 @@
+readest-cli contains code adapted from Readest:
+https://github.com/readest/readest
+
+Canonical source inspected at commit:
+f819d39578e7cd54c1d6a752206c5aa5260d6838
+
+The adapted protocol and OAuth code originates in:
+- apps/readest-calibre-plugin/api.py
+- apps/readest-calibre-plugin/oauth.py
+- apps/readest-calibre-plugin/wire.py
+- apps/readest-calibre-plugin/worker.py
+
+Copyright (C) 2026 Bilingify LLC
+Licensed under the GNU Affero General Public License version 3.
+The local modifications are identified in source-file headers.
